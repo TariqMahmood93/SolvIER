@@ -15,8 +15,6 @@ Entity Resolution (ER) — the task of identifying records that refer to the sam
 - Spacy with the `en_core_web_lg` model
 - NVIDIA Apex (for mixed-precision training)
 
-## Installation
-
 ```bash
 git clone https://github.com/TariqMahmood93/SolvIER.git
 cd solvIER
@@ -46,4 +44,4 @@ SolvER is evaluated on six standard ER benchmarks under MCAR missingness rates o
 | iTunes-Amazon   | +0.3%    | +1.1%     | +1.0%     | -0.3%     |
 | BeerAdvo-RateBeer | +1.2%  | +1.7%     | +2.3%     | +1.3%     |
 
-*Relative F1-score improvement of SolvER over Ditto baseline.*
+*Relative F1-score improvement of SolvIER over Ditto baseline.*
