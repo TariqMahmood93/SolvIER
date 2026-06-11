@@ -1,14 +1,10 @@
 # SolvIER: **Solv**ing **I**ncomplete **E**ntity **R**esolution
 
-SolvER is an algorithm that combines transformer-based data imputation with state-of-the-art entity resolution. By imputing missing values before matching, SolvIER
-consistently improves F1-score over standard ER baselines — with up to **+17.4% relative improvement** 
-on real-world benchmarks at high missingness rates.
+SolvER is an algorithm that combines transformer-based data imputation with state-of-the-art entity resolution. By imputing missing values before matching, SolvIER consistently improves F1-score over standard ER baselines — with up to **+17.4% relative improvement** on real-world benchmarks at high missingness rates.
 
 ## Overview
 
-Entity Resolution (ER) — the task of identifying records that refer to the same real-world entity — is significantly
-challenged by missing attribute values. SolvER addresses this by integrating an imputation model as a pre-processing step
-before running [Ditto](https://github.com/megagonlabs/ditto).
+Entity Resolution (ER) — the task of identifying records that refer to the same real-world entity — is significantly challenged by missing attribute values. SolvER addresses this by integrating an imputation model as a pre-processing step before running [Ditto](https://github.com/megagonlabs/ditto).
 
 
 ## Requirements
@@ -22,10 +18,9 @@ before running [Ditto](https://github.com/megagonlabs/ditto).
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/solver-er.git
-cd solver-er
+git clone https://github.com/TariqMahmood93/SolvIER.git
+cd solvIER
 pip install -r requirements.txt
-python -m spacy download en_core_web_lg
 ```
 
 ## Usage
