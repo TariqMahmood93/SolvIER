@@ -21,16 +21,6 @@ cd solvIER
 pip install -r requirements.txt
 ```
 
-## Usage
-
-```bash
-python solver.py \
-  --task fodors-zagats \
-  --missing_rate 0.4 \
-  --imputer senti \
-  --matcher ditto
-```
-
 ## Results
 
 SolvER is evaluated on six standard ER benchmarks under MCAR missingness rates of 5%, 10%, 20%, and 40%.
