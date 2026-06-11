@@ -1,7 +1,6 @@
-# SolvER: Imputation-Aware Entity Resolution
+# SolvIER: **Solv**ing **I**ncomplete **E**ntity **R**esolution
 
-SolvER (**Solv**ing **I**ncomplete **E**ntity **R**esolution) is an algorithm that combines transformer-based
-data imputation with state-of-the-art entity resolution. By imputing missing values before matching, SolvIER
+SolvER is an algorithm that combines transformer-based data imputation with state-of-the-art entity resolution. By imputing missing values before matching, SolvIER
 consistently improves F1-score over standard ER baselines — with up to **+17.4% relative improvement** 
 on real-world benchmarks at high missingness rates.
 
