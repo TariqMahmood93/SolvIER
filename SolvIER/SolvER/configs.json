@@ -1,0 +1,13 @@
+[
+    {
+        "name": "/DBLP-ACM",
+        "task_type": "classification",
+        "vocab": [
+            "0",
+            "1"
+        ],
+        "trainset": "/root/workspace/FAISS-Imputation/GITHUB/SolvER/data/DBLP-ACM/train_DBLPACMS.txt",
+        "validset": "/root/workspace/FAISS-Imputation/GITHUB/SolvER/data/DBLP-ACM/valid_DBLPACMS.txt",
+        "testset": "/root/workspace/FAISS-Imputation/GITHUB/SolvER/data/DBLP-ACM/testing_file_0.0_98_imputed_final.txt"
+    }
+]
