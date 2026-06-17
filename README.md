@@ -29,9 +29,9 @@ SolvER is evaluated on six standard ER benchmarks under MCAR missingness rates o
 |-----------------|----------|-----------|-----------|-----------|
 | DBLP-ACM        | +0.5%    | +1.4%     | +1.4%     | +0.8%     |
 | DBLP-Scholar    | +0.1%    | +0.6%     | +1.2%     | +1.2%     |
-| Fodors-Zagats   | +0.3%    | +5.2%     | +2.4%     | **+17.4%**|
+| Fodors-Zagats   | +0.3%    | +5.2%     | +2.4%     | +17.4%    |
 | Walmart-Amazon  | +1.0%    | +0.2%     | +1.3%     | +5.9%     |
-| iTunes-Amazon   | +0.5%    | +0.8%     | +1.0%     | 1.0%     |
+| iTunes-Amazon   | +0.5%    | +0.8%     | +1.0%     | 1.0%      |
 | BeerAdvo-RateBeer | +1.2%  | +1.7%     | +2.3%     | +1.3%     |
 
 *Relative F1-score improvement of SolvIER over Ditto baseline.*
